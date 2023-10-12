@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #B8E5D1;
+}
+
+.left {
+    float: left;
+    padding: 20px;
+    background-color: pink;
+}
+
+.left .left-image {
+    position: relative;
+}
+
+.left-image > h2{
+    position: absolute;
+    bottom: 0;
+    font-size: 25px;
+    color: #756F9D;
+    margin: 10px;
+}
+
+.about {
+    padding: 0.15px 16px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul > li {
+    margin: 15px 0;
+    color: #2D2727;
+    font-size: 15px;
+}
+
+.infor ul > li > i {
+    color: #756F9D;
+    margin: 0 16px 0 0;
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px solid #8E87BD;
+}
+
+.skills p {
+    margin: 18px 0;
+    color: #2D2727;
+    font-size: 18px;
+}
+
+.skills p > i {
+    color: #756F9D;
+    margin: 0 16px 0 0;
+}
+
+.mana {
+    width: 100%;
+    margin: 0;
+}
+
+.mana .probar {
+    width: 100%;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+.mana .probar::-webkit-progress-value {
+    background-color: #8E87BD;
+}
+
+.lang p {
+    margin: 30px 0 18px;
+    color: #2D2727;
+    
+}
+
+.lang p > i {
+    color: #756F9D;
+    margin: 0 16px 0 0;
+}
+
+.right {
+    float: right;
+    padding: 20px 20px 20px 40px;
+}
+
+.work h2 {
+    color: #2D2727;
+    font-size: 30px;
+    margin: 10px 0;
+    padding: 16px 0;
+}
+
+.work h2 > i {
+    margin: 0 16px 0 0;
+    color: #756F9D;
+}
+
+h5 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #2D2727;
+}
+
+h6 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #756F9D;
+}
+
+h6 > i {
+    margin: 0 16px 0 0;
+}
+
+.border {
+    color: #fff;
+    background-color: #756F9D;
+    border-radius: 4px;
+    padding: 0 8px;
+}
+
+p {
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.edu h2 {
+    color: #2D2727;
+    font-size: 30px;
+    margin: 40px 0 10px 0;
+    padding: 16px 0;
+}
+
+.edu h2 > i {
+    margin: 0 16px 0 0;
+    color: #756F9D;
+}
+
+@media (min-width: 400px) {
+    .left {
+        width: 40%;
+    }
+
+    .right {
+        width: 60%;
+    }
+}
